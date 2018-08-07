@@ -13,7 +13,6 @@ let display = () => {
     ${Object.values(array[0])}, ${date}
     </section>
     <button type="button" class="remove">X</button>
-    <button type="button" class="end">=></button>
     Your request is #1 of ${array.length}`);
 }
 const input = document.querySelectorAll("input[type='text']")
@@ -31,7 +30,6 @@ $("body").on("click", ".remove", (e) => {
     ${Object.values(array[0])}, ${date}
     </section>
     <button type="button" class="remove">X</button>
-    <button type="button" class="end">=></button>
     Your request is #1 of ${array.length}`);
     console.log(array)
 });
