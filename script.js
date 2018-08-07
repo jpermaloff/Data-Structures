@@ -35,13 +35,6 @@ $("body").on("click", ".remove", (e) => {
     Your request is #1 of ${array.length}`);
     console.log(array)
 });
-$("body").on("click", ".end", (e) => {
-    array.push(array[0])
-    array.pop()
-    $(".queue").empty();
-    array.push(new Issue(input[0].value, input[1].value));
-    display();
-    console.log(array)
-})
+
 
 
